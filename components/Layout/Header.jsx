@@ -1,12 +1,14 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
+import { TiThMenuOutline } from "react-icons/ti";
+import { IoCloseCircleOutline } from "react-icons/io5";
 
 const navListItems = [
   {
     id: 1,
     title: "Home",
-    link: "/home",
+    link: "/",
   },
   {
     id: 2,
@@ -135,11 +137,37 @@ const navListItems = [
   },
 ];
 
+const drawerItemsList = [
+  {
+    branch: "Satarkul Branch",
+    contactNumber: "+8809677444777",
+    email: "info@glenrich.edu.bd",
+    address:
+      "Plot No: E-2 & E-3, Sunvalley Sharoni, Block: A, Sunvalley Abashan Swadesh Properties Ltd., Satarkul, Badda, Dhaka-1212",
+    visitCampus: "Visit Satarkul Campus",
+  },
+  {
+    branch: "Uttara Branch (Junior Campus)",
+    contactNumber: "(+88) 0248961087",
+    email: "info@uttara.glenrich.edu.bd",
+    address: "Plot 4, Road 13, Sector 6, Uttara Model Town, Dhaka-1230",
+    visitCampus: "Visit Uttara Campus",
+  },
+  {
+    branch: "Uttara Branch (Senior Campus)",
+    contactNumber: "(+88) 09614087141",
+    email: "info@uttara.glenrich.edu.bd",
+    address: "Plot ED-01, Road 1, Sector 15, Uttara Model Town, Dhaka-1230",
+    visitCampus: "Visit Uttara Campus",
+  },
+];
+
 export default function Header() {
   const [subMenu, setSubMenu] = useState(null);
-  console.log(subMenu);
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div>
+    <div className="relative">
       {/* Top Section */}
       <div className="flex justify-between p-5">
         <div>School</div>
@@ -155,7 +183,8 @@ export default function Header() {
         </div>
       </div>
       {/* Bottom Section */}
-      <div className="bg-secondary-color text-primary-color">
+      <div className="bg-secondary-color text-primary-color flex space-x-5 justify-center">
+        {/* Menu List */}
         <ul className="flex space-x-5 justify-center">
           {navListItems.map((item) => (
             <li
@@ -182,6 +211,44 @@ export default function Header() {
             </li>
           ))}
         </ul>
+        {/* App Drawer */}
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="hover:bg-accent-color text-opacity-90 hover:text-opacity-100 transition-all duration-300 px-4"
+        >
+          <TiThMenuOutline />
+        </button>
+      </div>
+      {/* BG Overlay */}
+      {isOpen && (
+        <div
+          className="fixed bg-black inset-0 bg-opacity-50"
+          onClick={() => setIsOpen(false)}
+        />
+      )}
+      {/* Drawer */}
+      <div
+        className={`fixed w-96 h-screen bg-primary-color text-accent-color ${
+          isOpen ? "translate-x-0" : "-translate-x-96"
+        } transition-all duration-500 overflow-y-scroll top-0 left-0`}
+      >
+        <div
+          className="flex justify-between p-3"
+        >
+          <div>logo</div>
+          <button onClick={() => setIsOpen(false)} className="text-4xl">
+            <IoCloseCircleOutline />
+          </button>
+        </div>
+        {drawerItemsList.map((item, index) => (
+          <div key={index} className="p-7">
+            <h1 className="text-2xl font-semibold">{item.branch}</h1>
+            <p>{item.email}</p>
+            <p>{item.contactNumber}</p>
+            <p>{item.address}</p>
+            <button className="btn">{item.visitCampus}</button>
+          </div>
+        ))}
       </div>
     </div>
   );
