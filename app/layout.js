@@ -1,6 +1,7 @@
 import { Inter, Lato } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Layout/Header";
+import Footer from "@/components/Layout/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const lato = Lato({
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body className={`min-h-screen ${lato.className}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
