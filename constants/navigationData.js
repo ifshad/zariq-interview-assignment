@@ -342,39 +342,39 @@ export const schoolGrades = [
     grade: "Grade 3",
   },
   {
-    id: 6,
+    id: 7,
     grade: "Grade 4",
   },
   {
-    id: 6,
+    id: 8,
     grade: "Grade 5",
   },
   {
-    id: 6,
+    id: 9,
     grade: "Grade 6",
   },
   {
-    id: 6,
+    id: 10,
     grade: "Grade 7",
   },
   {
-    id: 6,
+    id: 11,
     grade: "Grade 8",
   },
   {
-    id: 6,
+    id: 12,
     grade: "Grade 9",
   },
   {
-    id: 6,
+    id: 13,
     grade: "Grade 10",
   },
   {
-    id: 6,
+    id: 14,
     grade: "Grade 11",
   },
   {
-    id: 6,
+    id: 15,
     grade: "Grade 12",
   },
 ];

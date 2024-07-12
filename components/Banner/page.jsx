@@ -33,8 +33,8 @@ export default function Banner() {
       </div>
       {/* Images */}
       <div className="md:col-span-3">
-        {/* <img src="../" alt="school children img" />
-        <img src={bench} alt="school children img" /> */}
+        {/* <Image src="../" alt="school children img" />
+        <Image src={bench} alt="school children img" /> */}
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ import {
   middleYearsTiming,
   primaryYearsTiming,
 } from "@/constants/navigationData";
+import BoldBorder from "../BoldBorder/page";
 
 export default function SchoolTiming() {
   const earlyYearsColumn = [
@@ -27,10 +28,15 @@ export default function SchoolTiming() {
       {/* Title */}
       <div className="w-3/5 mx-auto text-center">
         <h1 className="section-title">School Timing</h1>
+        <div className="flex justify-center">
+          <BoldBorder />
+        </div>
       </div>
       {/* Table */}
       <div className="p-10 rounded-md border border-secondary-color flex flex-col">
-        <h1 className="card-title mt-6 mb-3">For Early Years (Playgroup, Nursery, Kindergarten)</h1>
+        <h1 className="card-title mt-6 mb-3">
+          For Early Years (Playgroup, Nursery, Kindergarten)
+        </h1>
         <Table columns={earlyYearsColumn} data={earlyYearsTiming} />
         <h1 className="card-title mt-6 mb-3">For Primary Years (Grades 1-4)</h1>
         <Table columns={primaryYearsColumn} data={primaryYearsTiming} />

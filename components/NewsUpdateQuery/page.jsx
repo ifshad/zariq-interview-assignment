@@ -6,6 +6,7 @@ import {
 } from "@/constants/navigationData";
 import React from "react";
 import BoldBorder from "../BoldBorder/page";
+import Image from "next/image";
 
 export default function NewsUpdateQuery() {
   const handleSubmit = (e) => {
@@ -38,7 +39,7 @@ export default function NewsUpdateQuery() {
       <div>
         <div>Image</div>
         <div>
-          <h1 className="card-title">Latest Updates</h1>
+          <h1 className="card-title mb-5">Latest Updates</h1>
           <BoldBorder />
           <div>
             {latestUpdates.map((update) => (
@@ -51,12 +52,12 @@ export default function NewsUpdateQuery() {
       </div>
       {/* News */}
       <div>
-        <h1 className="card-title">News & Media</h1>
+        <h1 className="card-title mb-5">News & Media</h1>
         <BoldBorder />
         <div>
           {newsMedia.map((news) => (
             <div key={news.id} className="grid grid-cols-5 p-5 cursor-pointer">
-              <img src={news.imageUrl} alt={news.title} className="col-span-1"/>
+              {/* <Image src={news.imageUrl} alt={news.title} className="col-span-1"/> */}
               <div className="col-span-4">
                 <h1 className="text-secondary-color">{news.title}</h1>
                 {/* <p>{news.description}</p> */}
@@ -96,7 +97,7 @@ export default function NewsUpdateQuery() {
           </div>
           <div className="w-full">
             <p className="mb-2">
-              Student's Date of Birth <span className="text-red-500">*</span>
+              Student&apos;s Date of Birth <span className="text-red-500">*</span>
             </p>
             <input
               type="date"
