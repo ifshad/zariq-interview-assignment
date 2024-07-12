@@ -6,6 +6,8 @@ import {
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { IoIosPeople } from "react-icons/io";
 import { BiBuildingHouse } from "react-icons/bi";
+import { IoBulbOutline } from "react-icons/io5";
+import { TbTargetArrow, TbFileLike } from "react-icons/tb";
 
 export const navListItems = [
   {
@@ -21,7 +23,7 @@ export const navListItems = [
       {
         id: 21,
         title: "Vision, Mission and Values",
-        link: "/about-us/vision-mission-values",
+        link: "/about-us/#vision-mission-values",
       },
       {
         id: 22,
@@ -376,5 +378,29 @@ export const schoolGrades = [
   {
     id: 15,
     grade: "Grade 12",
+  },
+];
+
+export const visionMissionValuesArray = [
+  {
+    id: 1,
+    title: "Vision",
+    short_description:
+      "To be the global leader in providing innovative and sustainable solutions.",
+    icon: <IoBulbOutline />,
+  },
+  {
+    id: 2,
+    title: "Mission",
+    short_description:
+      "Deliver exceptional products and services that exceed customer expectations and contribute positively to the community.",
+    icon: <TbTargetArrow />,
+  },
+  {
+    id: 3,
+    title: "Values",
+    short_description:
+      "Integrity, Excellence, Respect, Innovation, Sustainability, and Teamwork.",
+    icon: <TbFileLike />,
   },
 ];
