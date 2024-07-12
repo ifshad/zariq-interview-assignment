@@ -1,3 +1,9 @@
+import ExamReminder from "@/components/ExamReminder/page";
+
 export default function Home() {
-  return <div className="container">hello</div>;
+  return (
+    <div className="container">
+      <ExamReminder />
+    </div>
+  );
 }
