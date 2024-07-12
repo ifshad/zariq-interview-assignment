@@ -203,3 +203,24 @@ export const schoolInfo = [
     icon: <FaHouseChimneyUser />,
   },
 ];
+
+export const ageSpecificSupport = [
+  {
+    id: 1,
+    program: "PRESCHOOL",
+    description:
+      "For children aged 3 to 6. Focuses on communication, language, personal, social, emotional development, physical development, literacy, mathematics, understanding the world, expressive arts and design through fun activities.",
+  },
+  {
+    id: 2,
+    program: "PRIMARY SCHOOL",
+    description:
+      "For children from Year 2 to Year 6 (Grade 1 to Grade 5). Covers English, Bangla, Maths, Science, Computing, Global Citizenship, Islam, Arabic, Tahfeez, creative art, and physical education.",
+  },
+  {
+    id: 3,
+    program: "MIDDLE SCHOOL",
+    description:
+      "For children in Year 7 (Grade 6) to Year 9 (Grade 8). Prepares for IGCSE O & A Levels. Focuses on social and emotional development, self-regulation, self-advocacy, and interpersonal skills.",
+  },
+];
