@@ -3,6 +3,7 @@ import AgeSupport from "@/components/AgeSupport/page";
 import Banner from "@/components/Banner/page";
 import ExamReminder from "@/components/ExamReminder/page";
 import HistorySection from "@/components/HistorySection/page";
+import NewsUpdateQuery from "@/components/NewsUpdateQuery/page";
 import SchoolTiming from "@/components/SchoolTiming/page";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <HistorySection />
       <AgeSupport />
       <SchoolTiming />
+      <NewsUpdateQuery />
       <ExamReminder />
     </div>
   );
