@@ -1,3 +1,12 @@
+import {
+  FaBuilding,
+  FaHouseChimneyUser,
+  FaUserGraduate,
+} from "react-icons/fa6";
+import { FaChalkboardTeacher } from "react-icons/fa";
+import { IoIosPeople } from "react-icons/io";
+import { BiBuildingHouse } from "react-icons/bi";
+
 export const navListItems = [
   {
     id: 1,
@@ -153,5 +162,44 @@ export const drawerItemsList = [
     email: "info@uttara.glenrich.edu.bd",
     address: "Plot ED-01, Road 1, Sector 15, Uttara Model Town, Dhaka-1230",
     visitCampus: "Visit Uttara Campus",
+  },
+];
+
+export const schoolInfo = [
+  {
+    id: 1,
+    count: 2015,
+    description: "Founded",
+    icon: <FaBuilding />,
+  },
+  {
+    id: 2,
+    count: "210+",
+    description: "Teachers",
+    icon: <FaChalkboardTeacher />,
+  },
+  {
+    id: 3,
+    count: "4000+",
+    description: "Students",
+    icon: <FaUserGraduate />,
+  },
+  {
+    id: 4,
+    count: "120+",
+    description: "Staffs",
+    icon: <IoIosPeople />,
+  },
+  {
+    id: 5,
+    count: "3+",
+    description: "Branches",
+    icon: <BiBuildingHouse />,
+  },
+  {
+    id: 6,
+    count: "9+",
+    description: "Campuses",
+    icon: <FaHouseChimneyUser />,
   },
 ];
