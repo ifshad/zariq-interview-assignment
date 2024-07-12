@@ -6,8 +6,8 @@ export default function AboutSection() {
     <div className="container md:p-12">
       {/* Title */}
       <div className="w-3/5 mx-auto">
-        <p className="md:text-xl mb-5">ABOUT US</p>
-        <h1 className="md:text-7xl font-bold text-accent-color mb-5">
+        <p className="section-category">ABOUT US</p>
+        <h1 className="section-title">
           We are here to help parents raise happy and healthy children
         </h1>
         <BoldBorder />
@@ -20,7 +20,7 @@ export default function AboutSection() {
         </div>
         {/* Text */}
         <div className="md:col-span-5 md:p-10">
-          <p className="md:text-xl mb-5">
+          <p className="section-category">
             Reverie School is an English medium school currently catering for
             students from Playgroup to Grade 7. Following the Edexcel
             curriculum, Reverie School intends to deliver excellent educational

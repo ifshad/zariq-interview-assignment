@@ -203,3 +203,70 @@ export const schoolInfo = [
     icon: <FaHouseChimneyUser />,
   },
 ];
+
+export const ageSpecificSupport = [
+  {
+    id: 1,
+    program: "PRESCHOOL",
+    description:
+      "For children aged 3 to 6. Focuses on communication, language, personal, social, emotional development, physical development, literacy, mathematics, understanding the world, expressive arts and design through fun activities.",
+  },
+  {
+    id: 2,
+    program: "PRIMARY SCHOOL",
+    description:
+      "For children from Year 2 to Year 6 (Grade 1 to Grade 5). Covers English, Bangla, Maths, Science, Computing, Global Citizenship, Islam, Arabic, Tahfeez, creative art, and physical education.",
+  },
+  {
+    id: 3,
+    program: "MIDDLE SCHOOL",
+    description:
+      "For children in Year 7 (Grade 6) to Year 9 (Grade 8). Prepares for IGCSE O & A Levels. Focuses on social and emotional development, self-regulation, self-advocacy, and interpersonal skills.",
+  },
+];
+
+export const earlyYearsTiming = [
+  {
+    id: 1,
+    class: "Reception 1 (Playgroup)",
+    firstShift: "9:00 am – 11:15 am",
+    secondShift: "11:30 am – 1:45 pm",
+  },
+  {
+    id: 2,
+    class: "Reception 2 (Nursery)",
+    firstShift: "8:15 am – 11:40 am",
+    secondShift: "11:15 am – 2:30 pm",
+  },
+  {
+    id: 3,
+    class: "Year 1 (Kindergarten)",
+    firstShift: "8:15 am – 12:20 pm",
+    secondShift: "Not applicable",
+  },
+];
+
+export const primaryYearsTiming = [
+  {
+    id: 1,
+    class: "Year 2-3 (Grades 1-2)",
+    schoolTiming: "8:15 am – 1:45 pm",
+    salahTiming: "1:25 pm – 1:40 pm",
+  },
+  {
+    id: 2,
+    class: "Year 4-5 (Grades 3-4)",
+    schoolTiming: "8:15 am – 2:00 pm",
+    salahTiming: "1:25 pm – 1:40 pm",
+  },
+];
+
+
+export const middleYearsTiming = [
+  {
+    id: 1,
+    class: "Year 6-7 (Grades 5-6)",
+    schoolTiming: "8:15 am – 2:50 pm",
+    salahTiming: "1:25 pm – 1:40 pm",
+  },
+];

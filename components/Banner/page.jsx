@@ -9,12 +9,12 @@ export default function Banner() {
     <div className="container grid grid-cols-1 md:grid-cols-8 md:p-12">
       {/* Text */}
       <div className="md:col-span-5 md:p-10">
-        <p className="md:text-xl mb-5">Learn . Play. Explore</p>
-        <h1 className="md:text-7xl font-bold text-accent-color mb-5">
+        <p className="section-category">Learn . Play. Explore</p>
+        <h1 className="section-title">
           A safe and joyful place for your lovely children
         </h1>
         <BoldBorder />
-        <p className="md:text-xl mb-5">
+        <p className="section-category">
           Assalamu Alaikum! Welcome to Reverie School, where academic excellence
           meets moral values. Located at Bashundhara Residential Area in Dhaka,
           our English medium institution offers a holistic education, nurturing
