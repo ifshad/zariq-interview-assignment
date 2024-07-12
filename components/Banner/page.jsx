@@ -5,7 +5,7 @@ import student from "@/public/Images/school_image_02.jpg"
 
 export default function Banner() {
   return (
-    <div className="container grid grid-cols-1 md:grid-cols-8">
+    <div className="container grid grid-cols-1 md:grid-cols-8 md:p-12">
       {/* Text */}
       <div className="md:col-span-5 md:p-10">
         <p className="md:text-xl mb-5">Learn . Play. Explore</p>
