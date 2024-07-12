@@ -1,5 +1,6 @@
 import { schoolInfo } from "@/constants/navigationData";
 import React from "react";
+import BoldBorder from "../BoldBorder/page";
 
 export default function HistorySection() {
   return (
@@ -10,6 +11,7 @@ export default function HistorySection() {
       <div className="relative w-4/5 mx-auto md:p-10 text-primary-color">
         <p className="md:text-xl mb-5 text-orange-300">ABOUT US</p>
         <h1 className="md:text-7xl font-bold mb-5">History of our school</h1>
+        <BoldBorder />
         <p className="md:text-xl mb-5">
           The Averroes International School is recognized by the Bangladesh
           Ministry of Education and authorized by British Council and Edexcel as

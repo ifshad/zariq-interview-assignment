@@ -1,7 +1,8 @@
 import React from "react";
 import { FaPhone } from "react-icons/fa6";
-import bench from "@/public/Images/school_image_01.jpg"
-import student from "@/public/Images/school_image_02.jpg"
+import bench from "@/public/Images/school_image_01.jpg";
+import student from "@/public/Images/school_image_02.jpg";
+import BoldBorder from "../BoldBorder/page";
 
 export default function Banner() {
   return (
@@ -12,6 +13,7 @@ export default function Banner() {
         <h1 className="md:text-7xl font-bold text-accent-color mb-5">
           A safe and joyful place for your lovely children
         </h1>
+        <BoldBorder />
         <p className="md:text-xl mb-5">
           Assalamu Alaikum! Welcome to Reverie School, where academic excellence
           meets moral values. Located at Bashundhara Residential Area in Dhaka,

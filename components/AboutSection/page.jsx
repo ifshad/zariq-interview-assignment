@@ -1,4 +1,5 @@
 import React from "react";
+import BoldBorder from "../BoldBorder/page";
 
 export default function AboutSection() {
   return (
@@ -9,6 +10,7 @@ export default function AboutSection() {
         <h1 className="md:text-7xl font-bold text-accent-color mb-5">
           We are here to help parents raise happy and healthy children
         </h1>
+        <BoldBorder />
       </div>
       <div className=" grid grid-cols-1 md:grid-cols-8">
         {/* Images */}
