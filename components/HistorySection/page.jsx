@@ -4,11 +4,11 @@ import BoldBorder from "../BoldBorder/page";
 
 export default function HistorySection() {
   return (
-    <div className="container bg-fixed bg-parallax bg-cover bg-opacity-50 h-[500px] relative">
+    <div className="bg-fixed bg-parallax bg-cover bg-opacity-50 h-[500px] relative">
       {/* Dark Overlay */}
       <div className="absolute bg-black opacity-70 inset-0"></div>
       {/* Title */}
-      <div className="relative w-4/5 mx-auto md:p-10 text-primary-color">
+      <div className="container relative w-4/5 mx-auto md:p-10 text-primary-color">
         <p className="section-category text-orange-300">ABOUT US</p>
         <h1 className="section-title text-primary-color">History of our school</h1>
         <BoldBorder />

@@ -224,3 +224,49 @@ export const ageSpecificSupport = [
       "For children in Year 7 (Grade 6) to Year 9 (Grade 8). Prepares for IGCSE O & A Levels. Focuses on social and emotional development, self-regulation, self-advocacy, and interpersonal skills.",
   },
 ];
+
+export const earlyYearsTiming = [
+  {
+    id: 1,
+    class: "Reception 1 (Playgroup)",
+    firstShift: "9:00 am – 11:15 am",
+    secondShift: "11:30 am – 1:45 pm",
+  },
+  {
+    id: 2,
+    class: "Reception 2 (Nursery)",
+    firstShift: "8:15 am – 11:40 am",
+    secondShift: "11:15 am – 2:30 pm",
+  },
+  {
+    id: 3,
+    class: "Year 1 (Kindergarten)",
+    firstShift: "8:15 am – 12:20 pm",
+    secondShift: "Not applicable",
+  },
+];
+
+export const primaryYearsTiming = [
+  {
+    id: 1,
+    class: "Year 2-3 (Grades 1-2)",
+    schoolTiming: "8:15 am – 1:45 pm",
+    salahTiming: "1:25 pm – 1:40 pm",
+  },
+  {
+    id: 2,
+    class: "Year 4-5 (Grades 3-4)",
+    schoolTiming: "8:15 am – 2:00 pm",
+    salahTiming: "1:25 pm – 1:40 pm",
+  },
+];
+
+
+export const middleYearsTiming = [
+  {
+    id: 1,
+    class: "Year 6-7 (Grades 5-6)",
+    schoolTiming: "8:15 am – 2:50 pm",
+    salahTiming: "1:25 pm – 1:40 pm",
+  },
+];
