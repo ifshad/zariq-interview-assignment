@@ -9,7 +9,7 @@ export default function Error({ error, reset }) {
   }, [error]);
 
   return (
-    <div>
+    <div className="container min-h-screen flex justify-center items-center">
       <h2>Something went wrong!</h2>
       <button
         onClick={

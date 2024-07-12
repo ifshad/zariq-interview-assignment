@@ -261,12 +261,120 @@ export const primaryYearsTiming = [
   },
 ];
 
-
 export const middleYearsTiming = [
   {
     id: 1,
     class: "Year 6-7 (Grades 5-6)",
     schoolTiming: "8:15 am – 2:50 pm",
     salahTiming: "1:25 pm – 1:40 pm",
+  },
+];
+
+export const newsMedia = [
+  {
+    id: 1,
+    title: "Glenrich Newsletter – February 2024",
+    description:
+      "Learning by doing: Going beyond textbooks to raise exceptional young adults.",
+    imageUrl: "https://example.com/newsletter-february-2024.jpg",
+  },
+  {
+    id: 2,
+    title: "Mr. Ramesh Mudgal of Glenrich International School Satarkul",
+    description:
+      "Empowering students to take brand Bangladesh to the next level.",
+    imageUrl: "https://example.com/ramesh-mudgal.jpg",
+  },
+  {
+    id: 3,
+    title: "শৈশবের শিক্ষায় বিকশিত হোক সাফল্যের সম্ভাবনা",
+    description: "Childhood education that fosters the potential for success.",
+    imageUrl: "https://example.com/childhood-education.jpg",
+  },
+];
+
+export const latestUpdates = [
+  {
+    id: 1,
+    update:
+      "Parents are most welcome to visit the campus. Book your appointment Now!",
+  },
+  {
+    id: 2,
+    update:
+      "Parents are most welcome to visit the campus. Book your appointment Now!",
+  },
+  {
+    id: 3,
+    update:
+      "Parents are most welcome to visit the campus. Book your appointment Now!",
+  },
+  {
+    id: 4,
+    update:
+      "Parents are most welcome to visit the campus. Book your appointment Now!",
+  },
+];
+
+export const schoolGrades = [
+  {
+    id: 1,
+    grade: "Playgroup",
+  },
+  {
+    id: 2,
+    grade: "Nursery",
+  },
+  {
+    id: 3,
+    grade: "Kindergarten",
+  },
+  {
+    id: 4,
+    grade: "Grade 1",
+  },
+  {
+    id: 5,
+    grade: "Grade 2",
+  },
+  {
+    id: 6,
+    grade: "Grade 3",
+  },
+  {
+    id: 6,
+    grade: "Grade 4",
+  },
+  {
+    id: 6,
+    grade: "Grade 5",
+  },
+  {
+    id: 6,
+    grade: "Grade 6",
+  },
+  {
+    id: 6,
+    grade: "Grade 7",
+  },
+  {
+    id: 6,
+    grade: "Grade 8",
+  },
+  {
+    id: 6,
+    grade: "Grade 9",
+  },
+  {
+    id: 6,
+    grade: "Grade 10",
+  },
+  {
+    id: 6,
+    grade: "Grade 11",
+  },
+  {
+    id: 6,
+    grade: "Grade 12",
   },
 ];

@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="md:col-span-2">
           <div>
             <h1 className="text-2xl font-semibold">About School</h1>
-            <p className="opacity-85 text-lg">
+            <p className="text-opacity-85 text-lg">
               <Link
                 className="hover:opacity-100 transition-opacity duration-200"
                 href="/"
@@ -20,7 +20,7 @@ export default function Footer() {
                 Mission
               </Link>
             </p>
-            <p className="opacity-85 text-lg">
+            <p className="text-opacity-85 text-lg">
               <Link
                 className="hover:opacity-100 transition-opacity duration-200"
                 href="/"
@@ -28,7 +28,7 @@ export default function Footer() {
                 Vision
               </Link>
             </p>
-            <p className="opacity-85 text-lg">
+            <p className="text-opacity-85 text-lg">
               <Link
                 className="hover:opacity-100 transition-opacity duration-200"
                 href="/"
@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
           <div>
             <h1 className="text-2xl font-semibold">Academics</h1>
-            <p className="opacity-85 text-lg">
+            <p className="text-opacity-85 text-lg">
               <Link
                 className="hover:opacity-100 transition-opacity duration-200"
                 href="/"
@@ -54,14 +54,14 @@ export default function Footer() {
           {drawerItemsList.map((item, index) => (
             <div key={index}>
               <h1 className="text-2xl font-semibold">{item.branch}</h1>
-              <p className="opacity-85 text-lg">{item.address}</p>
+              <p className="text-opacity-85 text-lg">{item.address}</p>
               <div className="">
                 <p className="font-bold">Contact Number:</p>
-                <p className="opacity-85 text-lg">{item.contactNumber}</p>
+                <p className="text-opacity-85 text-lg">{item.contactNumber}</p>
               </div>
               <div className="">
                 <p className="font-bold">Email:</p>
-                <p className="opacity-85 text-lg">{item.email}</p>
+                <p className="text-opacity-85 text-lg">{item.email}</p>
               </div>
             </div>
           ))}

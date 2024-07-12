@@ -34,7 +34,7 @@ body {
 
 @layer components {
   .btn {
-    @apply py-2 px-4 bg-secondary-color hover:bg-accent-color hover:scale-105 rounded-full text-primary-color text-opacity-90 hover:text-opacity-100 transition-all duration-500;
+    @apply py-2 px-4 bg-secondary-color hover:bg-accent-color hover:scale-105 rounded-full text-primary-color text-opacity-90 hover:text-opacity-100 transition-all duration-500 cursor-pointer;
   }
   .card {
     @apply p-4 border border-secondary-color rounded-md hover:shadow-xl cursor-default;
