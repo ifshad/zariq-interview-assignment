@@ -8,10 +8,10 @@ export default function AgeSupport() {
       {/* Title */}
       <div className="w-3/5 mx-auto">
         <p className="section-category">ACADEMICS</p>
-        <h1 className="section-title">
-          Age-specific support for every stage
-        </h1>
-        <BoldBorder />
+        <h1 className="section-title">Age-specific support for every stage</h1>
+        <div className="flex justify-center">
+          <BoldBorder />
+        </div>
       </div>
       {/* Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">

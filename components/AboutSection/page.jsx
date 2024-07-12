@@ -15,8 +15,8 @@ export default function AboutSection() {
       <div className=" grid grid-cols-1 md:grid-cols-8">
         {/* Images */}
         <div className="md:col-span-3">
-          {/* <img src="../" alt="school children img" />
-        <img src={bench} alt="school children img" /> */}
+          {/* <Image src="../" alt="school children img" />
+        <Image src={bench} alt="school children img" /> */}
         </div>
         {/* Text */}
         <div className="md:col-span-5 md:p-10">
