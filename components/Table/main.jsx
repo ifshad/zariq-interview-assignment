@@ -7,7 +7,9 @@ export default function Table({ columns, data }) {
         <thead>
           <tr>
             {columns.map((col, index) => (
-              <td key={index}>{col.header}</td>
+              <td key={index} className="border p-5 text-center bg-accent-color text-primary-color">
+                {col.header}
+              </td>
             ))}
           </tr>
         </thead>
@@ -15,7 +17,9 @@ export default function Table({ columns, data }) {
           {data.map((row) => (
             <tr key={row.id}>
               {columns.map((col, index) => (
-                <td key={index}>{row[col.accesor]}</td>
+                <td key={index} className="border p-5 text-center">
+                  {row[col.accesor]}
+                </td>
               ))}
             </tr>
           ))}
