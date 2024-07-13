@@ -28,9 +28,9 @@ export default function ExamReminder() {
   }, []);
 
   return (
-    <div className="w-96 p-6 bg-secondary-color fixed bottom-0 right-0 text-primary-color text-center">
+    <div className="w-[270px] p-3 bg-secondary-color fixed bottom-0 right-0 text-primary-color text-center">
       <h1 className="text-2xl font-semibold">Final Exam 2023-2024</h1>
-      <div className="border border-primary-color flex space-x-5 justify-center">
+      <div className="border border-primary-color flex gap-2 justify-center">
         <p className="flex flex-col text-yellow-300 text-4xl font-bold">
           {timeLeft.days}
           <span className="text-lg text-primary-color font-normal">days</span>

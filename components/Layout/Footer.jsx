@@ -1,13 +1,16 @@
 import { drawerItemsList } from "@/constants/navigationData";
 import Link from "next/link";
 import React from "react";
+import Logo from "../Logo/page";
 
 export default function Footer() {
   return (
-    <div className="bg-accent-color text-primary-color">
+    <div className="bg-accent-color text-primary-color md:py-10">
       <div className="container grid grid-cols-1 md:grid-cols-10 space-x-3 p-10">
         {/* Logo */}
-        <div className="md:col-span-2">Logo</div>
+        <div className="md:col-span-2">
+          <Logo />
+        </div>
         {/* Abouts */}
         <div className="md:col-span-2">
           <div>

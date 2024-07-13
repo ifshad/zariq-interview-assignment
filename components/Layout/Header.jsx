@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { TiThMenuOutline } from "react-icons/ti";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { drawerItemsList, navListItems } from "@/constants/navigationData";
+import Logo from "../Logo/page";
 
 export default function Header() {
   const [subMenu, setSubMenu] = useState(null);
@@ -11,20 +12,6 @@ export default function Header() {
 
   return (
     <div className="sticky top-0 z-50">
-      {/* Top Section */}
-      <div className="flex justify-between p-5 bg-slate-50">
-        <div>School</div>
-        <div>
-          <ul className="flex space-x-5">
-            <li className="btn">
-              <Link href="/">Request For A Tour</Link>
-            </li>
-            <li className="btn">
-              <Link href="/">Login</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
       {/* Bottom Section */}
       <div className="bg-secondary-color text-primary-color flex space-x-5 justify-center">
         {/* Menu List */}
@@ -76,7 +63,9 @@ export default function Header() {
         } transition-all duration-500 overflow-y-scroll top-0 left-0 z-50`}
       >
         <div className="flex justify-between p-3">
-          <div>logo</div>
+          <div>
+            <Logo />
+          </div>
           <button onClick={() => setIsOpen(false)} className="text-4xl">
             <IoCloseCircleOutline />
           </button>

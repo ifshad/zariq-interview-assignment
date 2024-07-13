@@ -460,7 +460,6 @@ export default function ApplyOnline() {
                 Conduct, Privacy Policy and Terms of Use.
               </p>
             </div>
-
             <input
               type="submit"
               value="Submit"
