@@ -36,9 +36,10 @@ export default function Carousel() {
             <Image
               src={src}
               alt={`Slide ${index + 1}`}
-              width={500}
-              height={600}
-              className="w-full h-full"
+              // width={500}
+              // height={600}
+              layout="fill"
+              objectFit="cover"
             />
           </div>
         ))}

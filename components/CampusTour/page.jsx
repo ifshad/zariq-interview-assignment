@@ -157,8 +157,8 @@ export default function CampusTour() {
       </div>
       <div className="container grid grid-cols-1 md:grid-cols-4 gap-5 mx-auto">
         {imageItems.map((src, index) => (
-          <div key={index}>
-            <Image src={src} alt={`index${index + 1}`} width={200} />
+          <div key={index} className="cursor-pointer hover:scale-105 transition-all duration-500">
+            <Image src={src} alt={`index${index + 1}`} width={400} height={400} />
             <p className="text-center">Satarkul Branch</p>
           </div>
         ))}

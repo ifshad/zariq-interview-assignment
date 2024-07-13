@@ -14,15 +14,14 @@ export default function EventsSection() {
         {upcomingEvents.map((event) => (
           <div
             key={event.id}
-            className="w-80 grid grid-rows-6 shadow-xl rounded"
+            className="w-80 grid grid-rows-6 shadow-xl rounded cursor-pointer hover:scale-105 transition-all duration-500"
           >
-            <div className="row-span-4">
+            <div className="row-span-4 w-full h-full relative">
               <Image
                 src={event.imageUrl}
                 alt={event.title}
-                width={100}
-                height={100}
-                className="w-full"
+                layout="fill"
+                objectFit="cover"
               />
             </div>
             <div className="row-span-2 grid grid-cols-7 p-3">

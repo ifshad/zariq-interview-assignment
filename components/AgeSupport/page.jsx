@@ -1,6 +1,7 @@
 import { ageSpecificSupport } from "@/constants/navigationData";
 import React from "react";
 import BoldBorder from "../BoldBorder/page";
+import Image from "next/image";
 
 export default function AgeSupport() {
   return (
@@ -17,7 +18,9 @@ export default function AgeSupport() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         {ageSpecificSupport.map((item) => (
           <div key={item.id} className="grid md:grid-rows-5 card">
-            <div className="md:row-span-3"></div>
+            <div className="md:row-span-3 relative">
+              <Image src={item.imageUrl} alt={item.program} layout="fill" objectFit="cover" />
+            </div>
             <div className="md:row-span-2">
               <h1 className="card-title">{item.program}</h1>
               <p>{item.description}</p>

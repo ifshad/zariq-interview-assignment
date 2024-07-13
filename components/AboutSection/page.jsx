@@ -13,15 +13,15 @@ export default function AboutSection() {
         </h1>
         <BoldBorder />
       </div>
-      <div className=" grid grid-cols-1 md:grid-cols-8">
+      <div className="grid grid-cols-1 md:grid-cols-8">
         {/* Images */}
-        <div className="md:col-span-3">
+        <div className="md:col-span-3 w-96 h-96 relative">
           <Image
             src="https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png"
             alt="News image"
-            width={100}
-            height={100}
-            className="w-full h-full"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg border-4 border-white"
           />
         </div>
         {/* Text */}

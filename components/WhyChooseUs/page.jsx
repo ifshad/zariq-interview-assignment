@@ -27,9 +27,9 @@ export default function WhyChooseUs() {
   //   console.log(selectedOption);
   return (
     <div id="why-choose-us" className="container md:p-12">
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-0">
+      <div className="flex flex-col md:flex-row md:gap-0 h-[400px]">
         {/* Images */}
-        <div className="md:col-span-1 bg-slate-50">
+        <div className="md:w-1/3 bg-slate-50 h-full w-full relative">
           {whyChooseDetails.map((item) => {
             if (item.id === selectedOption) {
               return (
@@ -37,16 +37,15 @@ export default function WhyChooseUs() {
                   key={item.id}
                   src={item.imageUrl}
                   alt={item.name}
-                  width={100}
-                  height={100}
-                  className="w-full h-full"
+                  layout="fill"
+                  objectFit="cover"
                 />
               );
             }
           })}
         </div>
         {/* Description */}
-        <div className="md:col-span-2">
+        <div className="md:w-2/3 h-full">
           {/* Buttons */}
           <div className="bg-slate-300">
             {buttons.map((button) => (

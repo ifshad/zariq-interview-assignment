@@ -20,6 +20,15 @@ const rotateY = plugin(function ({ addUtilities }) {
   });
 });
 
+const marqueeY = plugin(function ({ addUtilities }) {
+  const newUtilities = {
+    ".pause": {
+      "animation-play-state": "paused",
+    },
+  };
+  addUtilities(newUtilities, ["hover"]);
+});
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -40,6 +49,15 @@ module.exports = {
       },
     },
     extend: {
+      animation: {
+        marquee: "marquee 20s linear infinite",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateY(100%)" },
+          "100%": { transform: "translateY(-100%)" },
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -53,5 +71,5 @@ module.exports = {
       },
     },
   },
-  plugins: [rotateY],
+  plugins: [rotateY, marqueeY],
 };

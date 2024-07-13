@@ -33,14 +33,25 @@ export default function Banner() {
         </div>
       </div>
       {/* Images */}
-      <div className="md:col-span-3">
-        <Image
-          src="https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png"
-          alt="News image"
-          width={100}
-          height={100}
-          className="w-full my-auto"
-        />
+      <div className="md:col-span-3 relative md:py-20">
+        <div className="relative w-full h-[400px]">
+          <Image
+            src="https://i.ibb.co/QczVPBG/A1.jpg"
+            alt="School image 1"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg shadow-lg"
+          />
+          <div className="absolute bottom-[-130px] right-[-30px] w-2/3 h-2/3">
+            <Image
+              src="https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png"
+              alt="School image 2"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-lg shadow-lg border-4 border-white"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
