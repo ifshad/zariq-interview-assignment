@@ -435,3 +435,76 @@ export const whyChooseDetails = [
     imageUrl: "url_to_image_hafez_hafeza_opportunity",
   },
 ];
+
+export const teacherList = [
+  {
+    id: 1,
+    name: "Dr. Sarah Ahmed",
+    designation: "Principal",
+    department: "Administration",
+    imageUrl: "url_to_image_dr_sarah_ahmed",
+  },
+  {
+    id: 2,
+    name: "Mr. John Smith",
+    designation: "Head of Mathematics",
+    department: "Mathematics",
+    imageUrl: "url_to_image_mr_john_smith",
+  },
+  {
+    id: 3,
+    name: "Ms. Fatima Khan",
+    designation: "Senior English Teacher",
+    department: "English",
+    imageUrl: "url_to_image_ms_fatima_khan",
+  },
+  {
+    id: 4,
+    name: "Mr. Ali Rahman",
+    designation: "Science Teacher",
+    department: "Science",
+    imageUrl: "url_to_image_mr_ali_rahman",
+  },
+  {
+    id: 5,
+    name: "Mrs. Aisha Begum",
+    designation: "History Teacher",
+    department: "History",
+    imageUrl: "url_to_image_mrs_aisha_begum",
+  },
+  {
+    id: 6,
+    name: "Mr. Abdul Karim",
+    designation: "Physical Education Teacher",
+    department: "Physical Education",
+    imageUrl: "url_to_image_mr_abdul_karim",
+  },
+  {
+    id: 7,
+    name: "Ms. Maria Gonzales",
+    designation: "Art Teacher",
+    department: "Art",
+    imageUrl: "url_to_image_ms_maria_gonzales",
+  },
+  {
+    id: 8,
+    name: "Mr. Faisal Ahmad",
+    designation: "Head of Islamic Studies",
+    department: "Islamic Studies",
+    imageUrl: "url_to_image_mr_faisal_ahmad",
+  },
+  {
+    id: 9,
+    name: "Mrs. Layla Hussain",
+    designation: "Arabic Teacher",
+    department: "Arabic",
+    imageUrl: "url_to_image_mrs_layla_hussain",
+  },
+  {
+    id: 10,
+    name: "Mr. David Brown",
+    designation: "Computer Science Teacher",
+    department: "Computer Science",
+    imageUrl: "url_to_image_mr_david_brown",
+  },
+];
