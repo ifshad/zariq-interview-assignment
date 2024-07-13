@@ -43,12 +43,12 @@ body {
     @apply hover:scale-105 transition-all duration-500;
   }
   .card-title {
-    @apply text-3xl text-secondary-color font-bold;
+    @apply text-3xl text-secondary-color font-bold mb-3 py-3;
   }
   .section-title {
-    @apply text-3xl md:text-7xl font-bold text-accent-color mb-5
+    @apply text-3xl md:text-7xl font-bold text-accent-color mb-5 py-3;
   }
   .section-category {
-    @apply md:text-xl mb-5
+    @apply md:text-xl mb-5;
   }
 }
