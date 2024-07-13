@@ -1,5 +1,6 @@
 import React from "react";
 import BoldBorder from "../BoldBorder/page";
+import Image from "next/image";
 
 export default function PrinciplesMessage() {
   return (
@@ -14,15 +15,25 @@ export default function PrinciplesMessage() {
       <div className="grid grid-cols-1 md:grid-cols-5">
         {/* Left Side */}
         <div className="md:col-span-2 grid grid-rows-5">
-          <span className="row-span-4">image</span>
-          <div className="row-span-1">
-            <h1 className="text-xl font-semibold">Mohammad Anisur Rahaman Shohagh</h1>
+          <div className="row-span-4 pt-5">
+            <Image
+              src="https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png"
+              alt="News image"
+              width={100}
+              height={100}
+              className="w-full h-full"
+            />
+          </div>
+          <div className="row-span-1 py-3">
+            <h1 className="text-xl font-semibold">
+              Mohammad Anisur Rahaman Shohagh
+            </h1>
             <p className="opacity-80">Head of School</p>
             <p className="opacity-90">Averroes International Schoo</p>
           </div>
         </div>
         {/* Right Side */}
-        <div className="md:col-span-3">
+        <div className="md:col-span-3 px-5">
           <h1 className="card-title">
             Assalamu Alaikum Wa Rahmatullahi Wa Barakatuhu
           </h1>
