@@ -8,6 +8,8 @@ import { IoIosPeople } from "react-icons/io";
 import { BiBuildingHouse } from "react-icons/bi";
 import { IoBulbOutline } from "react-icons/io5";
 import { TbTargetArrow, TbFileLike } from "react-icons/tb";
+import imageOne from "../public/Images/school_image_01.png";
+import imageTwo from "../public/Images/school_image_02.png";
 
 export const navListItems = [
   {
@@ -278,20 +280,20 @@ export const newsMedia = [
     title: "Glenrich Newsletter – February 2024",
     description:
       "Learning by doing: Going beyond textbooks to raise exceptional young adults.",
-    imageUrl: "https://example.com/newsletter-february-2024.jpg",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 2,
     title: "Mr. Ramesh Mudgal of Glenrich International School Satarkul",
     description:
       "Empowering students to take brand Bangladesh to the next level.",
-    imageUrl: "https://example.com/ramesh-mudgal.jpg",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 3,
     title: "শৈশবের শিক্ষায় বিকশিত হোক সাফল্যের সম্ভাবনা",
     description: "Childhood education that fosters the potential for success.",
-    imageUrl: "https://example.com/childhood-education.jpg",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
 ];
 
@@ -411,28 +413,28 @@ export const whyChooseDetails = [
     title: "Why Choose Guidance?",
     description:
       "At Guidance International School we offer superb quality British education, unique Islamic schooling, the opportunity to become Hafez & Hafeza, and much more. Our students are prepared with more than bookish skills, having access to the best learning resources to develop into the intellectual elite and future leaders. They receive an education that exceeds academic expectations through diverse extra-curricular and co-curricular events, cultivating a culturally and academically diverse mindset toward globalization. Choosing GIS ensures your child can become a global citizen, mindful of their responsibilities in this life and the afterlife.",
-    imageUrl: "url_to_image_why_choose_guidance",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 2,
     title: "Superb Quality British Education",
     description:
       "GIS focuses on the holistic development of each student, including social, emotional, mental, physical, and cognitive aspects. We prepare students through a globally recognized curriculum of the Cambridge Pathway, ensuring a solid foundation up to Cambridge O Level and A Level qualifications. Our students complete their schooling under our tutelage without needing private tuition. Extra-curricular and co-curricular activities reflect in-class schooling, keeping students physically active and mentally engaged through various activities such as sports, camping trips, field trips, subject-based Olympiads, science fairs, and creative activities.",
-    imageUrl: "url_to_image_superb_quality_education",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 3,
     title: "Unique Islamic Schooling",
     description:
       "At GIS, Islamic Education provides Muslim children with the knowledge to understand their purpose of creation, responsibility, and managing worldly affairs. The curriculum includes Aqeedah and Akhlaq, Fiqh, the history of Islamic culture, the Qur’an and Hadith, and the Arabic language.",
-    imageUrl: "url_to_image_unique_islamic_schooling",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 4,
     title: "Opportunity to Make Hafez & Hafeza",
     description:
       "GIS offers the unique opportunity for students to become Hafiz/Hafeza of the glorious Quran. Our experienced team of teachers meticulously supervises each student with a teacher-student ratio of 1:3 for hifzul Quran. We are the first in Bangladesh to introduce hifzul Quran to the Cambridge curriculum and have produced numerous Hafez and Hafeza.",
-    imageUrl: "url_to_image_hafez_hafeza_opportunity",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
 ];
 
@@ -442,70 +444,70 @@ export const teacherList = [
     name: "Dr. Sarah Ahmed",
     designation: "Principal",
     department: "Administration",
-    imageUrl: "url_to_image_dr_sarah_ahmed",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 2,
     name: "Mr. John Smith",
     designation: "Head of Mathematics",
     department: "Mathematics",
-    imageUrl: "url_to_image_mr_john_smith",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 3,
     name: "Ms. Fatima Khan",
     designation: "Senior English Teacher",
     department: "English",
-    imageUrl: "url_to_image_ms_fatima_khan",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 4,
     name: "Mr. Ali Rahman",
     designation: "Science Teacher",
     department: "Science",
-    imageUrl: "url_to_image_mr_ali_rahman",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 5,
     name: "Mrs. Aisha Begum",
     designation: "History Teacher",
     department: "History",
-    imageUrl: "url_to_image_mrs_aisha_begum",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 6,
     name: "Mr. Abdul Karim",
     designation: "Physical Education Teacher",
     department: "Physical Education",
-    imageUrl: "url_to_image_mr_abdul_karim",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 7,
     name: "Ms. Maria Gonzales",
     designation: "Art Teacher",
     department: "Art",
-    imageUrl: "url_to_image_ms_maria_gonzales",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 8,
     name: "Mr. Faisal Ahmad",
     designation: "Head of Islamic Studies",
     department: "Islamic Studies",
-    imageUrl: "url_to_image_mr_faisal_ahmad",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 9,
     name: "Mrs. Layla Hussain",
     designation: "Arabic Teacher",
     department: "Arabic",
-    imageUrl: "url_to_image_mrs_layla_hussain",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 10,
     name: "Mr. David Brown",
     designation: "Computer Science Teacher",
     department: "Computer Science",
-    imageUrl: "url_to_image_mr_david_brown",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
 ];
 
@@ -616,41 +618,41 @@ export const upcomingEvents = [
     title: "INTERNATIONAL MOTHER LANGUAGE DAY – SCHOOL CLOSURE",
     date: "21 FEB",
     time: "10:30 am - 12:00 pm",
-    imageUrl: "international_mother_language_day_image_url",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 2,
     title: "EKUSHEY CHITRANKON ONUSHTHAN – MS",
     date: "20 FEB",
     time: "9:00 am - 12:30 pm",
-    imageUrl: "ekushey_chitrankon_onusthan_ms_image_url",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 3,
     title: "EKUSHEY CHITRANKON ONUSHTHAN – JS",
     date: "19 FEB",
     time: "9:00 am - 12:00 pm",
-    imageUrl: "ekushey_chitrankon_onusthan_js_image_url",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 4,
     title: "PARENT PRINCIPAL MEETING – JS",
     date: "10 FEB",
     time: "10:00 am - 12:00 pm",
-    imageUrl: "parent_principal_meeting_js_image_url",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 5,
     title: "ANNUAL SPELLING BEE",
     date: "07 FEB",
     time: "8:30 am - 12:00 pm",
-    imageUrl: "annual_spelling_bee_image_url",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
   {
     id: 6,
     title: "GIS ANNUAL SPORTS 2023-2024",
     date: "25 JAN",
     time: "8:00 am - 12:00pm",
-    imageUrl: "annual_spelling_bee_image_url",
+    imageUrl: "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
   },
 ];

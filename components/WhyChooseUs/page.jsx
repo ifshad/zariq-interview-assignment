@@ -1,5 +1,6 @@
 "use client";
 import { whyChooseDetails } from "@/constants/navigationData";
+import Image from "next/image";
 import React, { useState } from "react";
 
 const buttons = [
@@ -31,7 +32,16 @@ export default function WhyChooseUs() {
         <div className="md:col-span-1 bg-slate-50">
           {whyChooseDetails.map((item) => {
             if (item.id === selectedOption) {
-              return <p key={item.id}>{item.imageUrl}</p>;
+              return (
+                <Image
+                  key={item.id}
+                  src={item.imageUrl}
+                  alt={item.name}
+                  width={100}
+                  height={100}
+                  className="w-full h-full"
+                />
+              );
             }
           })}
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import BoldBorder from "../BoldBorder/page";
+import Image from "next/image";
 
 export default function AboutSection() {
   return (
@@ -15,8 +16,13 @@ export default function AboutSection() {
       <div className=" grid grid-cols-1 md:grid-cols-8">
         {/* Images */}
         <div className="md:col-span-3">
-          {/* <Image src="../" alt="school children img" />
-        <Image src={bench} alt="school children img" /> */}
+          <Image
+            src="https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png"
+            alt="News image"
+            width={100}
+            height={100}
+            className="w-full h-full"
+          />
         </div>
         {/* Text */}
         <div className="md:col-span-5 md:p-10">

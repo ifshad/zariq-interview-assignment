@@ -37,7 +37,15 @@ export default function NewsUpdateQuery() {
     <div className="container md:p-12 grid grid-cols-1 md:grid-cols-3 gap-6">
       {/* Latest Update */}
       <div>
-        <div>Image</div>
+        <div>
+          <Image
+            src="https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png"
+            alt="News image"
+            width={100}
+            height={100}
+            className="w-full h-full"
+          />
+        </div>
         <div>
           <h1 className="card-title mb-5">Latest Updates</h1>
           <BoldBorder />
@@ -97,7 +105,8 @@ export default function NewsUpdateQuery() {
           </div>
           <div className="w-full">
             <p className="mb-2">
-              Student&apos;s Date of Birth <span className="text-red-500">*</span>
+              Student&apos;s Date of Birth{" "}
+              <span className="text-red-500">*</span>
             </p>
             <input
               type="date"

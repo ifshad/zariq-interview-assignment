@@ -3,6 +3,7 @@ import { FaPhone } from "react-icons/fa6";
 import bench from "@/public/Images/school_image_01.jpg";
 import student from "@/public/Images/school_image_02.jpg";
 import BoldBorder from "../BoldBorder/page";
+import Image from "next/image";
 
 export default function Banner() {
   return (
@@ -33,8 +34,13 @@ export default function Banner() {
       </div>
       {/* Images */}
       <div className="md:col-span-3">
-        {/* <Image src="../" alt="school children img" />
-        <Image src={bench} alt="school children img" /> */}
+        <Image
+          src="https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png"
+          alt="News image"
+          width={100}
+          height={100}
+          className="w-full my-auto"
+        />
       </div>
     </div>
   );
