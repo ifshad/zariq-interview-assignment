@@ -1,3 +1,4 @@
+import CurriculumSection from "@/components/CurriculumSection/page";
 import OurTeamSection from "@/components/OurTeamSection/page";
 import PrinciplesMessage from "@/components/PrinciplesMessage/page";
 import VisionMission from "@/components/VisionMission/page";
@@ -11,6 +12,7 @@ export default function AboutUsPage() {
       <WhyChooseUs />
       <PrinciplesMessage />
       <OurTeamSection />
+      <CurriculumSection />
     </div>
   );
 }

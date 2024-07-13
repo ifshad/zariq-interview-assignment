@@ -12,7 +12,7 @@ export default function OurTeamSection() {
   console.log(otherTeachers);
 
   return (
-    <div className="container md:p-12">
+    <div id="our-team" className="container md:p-12">
       {/* Title */}
       <div className="w-4/5 mx-auto text-center">
         <h1 className="section-title">Our Team Teaching</h1>
@@ -46,7 +46,7 @@ export default function OurTeamSection() {
       <h1 className="card-title text-center">
         Secondary and Higher Secondary Section (Main Branch Lalmatia )
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 text-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 text-center">
         {otherTeachers.map((teacher) => (
           <div
             key={teacher.id}
