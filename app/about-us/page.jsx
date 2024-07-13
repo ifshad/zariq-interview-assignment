@@ -1,3 +1,4 @@
+import CampusTour from "@/components/CampusTour/page";
 import CurriculumSection from "@/components/CurriculumSection/page";
 import OurTeamSection from "@/components/OurTeamSection/page";
 import PrinciplesMessage from "@/components/PrinciplesMessage/page";
@@ -13,6 +14,7 @@ export default function AboutUsPage() {
       <PrinciplesMessage />
       <OurTeamSection />
       <CurriculumSection />
+      <CampusTour />
     </div>
   );
 }

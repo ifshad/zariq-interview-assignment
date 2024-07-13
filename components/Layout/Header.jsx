@@ -39,7 +39,7 @@ export default function Header() {
               <Link href={item.link}>
                 {item.title}
                 {subMenu === item.id && item.subMenu && (
-                  <ul className="absolute bg-secondary-color left-0 top-[55px] w-64">
+                  <ul className="absolute bg-secondary-color left-0 top-[55px] w-64 z-50">
                     {item.subMenu?.map((subItem) => (
                       <li
                         key={subItem.id}
@@ -73,7 +73,7 @@ export default function Header() {
       <div
         className={`fixed w-96 h-screen bg-primary-color text-accent-color ${
           isOpen ? "translate-x-0" : "-translate-x-96"
-        } transition-all duration-500 overflow-y-scroll top-0 left-0`}
+        } transition-all duration-500 overflow-y-scroll top-0 left-0 z-50`}
       >
         <div className="flex justify-between p-3">
           <div>logo</div>
