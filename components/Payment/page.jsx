@@ -14,7 +14,7 @@ export default function Payment() {
         </div>
       </div>
       <div className="text-center">
-        <Image src={pic} alt="payment pic" width={300} className="w-full" />
+        <Image src={pic} alt="payment pic" width={300} height={300} className="mx-auto" />
         <h1 className="subsection-title">
           Averroes International School, Online Payment
         </h1>

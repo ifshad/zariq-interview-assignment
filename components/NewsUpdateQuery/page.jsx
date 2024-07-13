@@ -6,10 +6,10 @@ import {
 } from "@/constants/navigationData";
 import React, { useState } from "react";
 import BoldBorder from "../BoldBorder/page";
+import Carousel from "../Carousel/page";
 import Image from "next/image";
 
 export default function NewsUpdateQuery() {
-
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = new FormData(e.target);
@@ -38,24 +38,20 @@ export default function NewsUpdateQuery() {
     <div className="container md:p-12 grid grid-cols-1 md:grid-cols-3 gap-6">
       {/* Latest Update */}
       <div>
-        <div>
-          <Image
-            src="https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png"
-            alt="News image"
-            width={100}
-            height={100}
-            className="w-full h-full"
-          />
-        </div>
+        <Carousel />
         <div>
           <h1 className="card-title mb-5">Latest Updates</h1>
           <BoldBorder />
-          <div>
-            {latestUpdates.map((update) => (
-              <div key={update.id}>
-                <p>{update.update}</p>
-              </div>
-            ))}
+          <div className="relative h-[200px] overflow-hidden">
+            <div className="absolute w-full animate-marquee hover:pause">
+              {latestUpdates.map((update) => (
+                <div key={update.id} className="mb-6">
+                  <p className="">
+                    <u>{update.update}</u>
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -66,8 +62,10 @@ export default function NewsUpdateQuery() {
         <div>
           {newsMedia.map((news) => (
             <div key={news.id} className="grid grid-cols-5 p-5 cursor-pointer">
-              {/* <Image src={news.imageUrl} alt={news.title} className="col-span-1"/> */}
-              <div className="col-span-4">
+              <div className="col-span-1 relative w-full h-full">
+                <Image src={news.imageUrl} alt={news.title} layout="fill" objectFit="cover" />
+              </div>
+              <div className="col-span-4 px-1">
                 <h1 className="text-secondary-color">{news.title}</h1>
                 {/* <p>{news.description}</p> */}
               </div>
