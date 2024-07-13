@@ -9,7 +9,7 @@ export default function OurTeamSection() {
   const otherTeachers = teacherList.filter(
     (teacher) => teacher.designation !== "Principal"
   );
-  console.log(otherTeachers);
+  // console.log(otherTeachers);
 
   return (
     <div id="our-team" className="container md:p-12">
