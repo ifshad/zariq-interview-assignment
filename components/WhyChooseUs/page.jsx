@@ -25,7 +25,7 @@ export default function WhyChooseUs() {
   const [selectedOption, setSelectedOption] = useState(1);
   //   console.log(selectedOption);
   return (
-    <div className="container md:p-12">
+    <div id="why-choose-us" className="container md:p-12">
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-0">
         {/* Images */}
         <div className="md:col-span-1 bg-slate-50">
