@@ -10,9 +10,9 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative">
+    <div className="sticky top-0 z-50">
       {/* Top Section */}
-      <div className="flex justify-between p-5">
+      <div className="flex justify-between p-5 bg-slate-50">
         <div>School</div>
         <div>
           <ul className="flex space-x-5">
