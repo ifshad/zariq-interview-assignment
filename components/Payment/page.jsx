@@ -22,6 +22,7 @@ export default function Payment() {
         <p className="text-rose-500">
           Time Limit for Payment : 7:00 AM to 5:00 PM
         </p>
+        <button className="btn my-5">Tutorial</button>
       </div>
     </div>
   );
