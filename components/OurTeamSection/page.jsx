@@ -1,6 +1,7 @@
 import { teacherList } from "@/constants/navigationData";
 import React from "react";
 import BoldBorder from "../BoldBorder/page";
+import Image from "next/image";
 
 export default function OurTeamSection() {
   const principal = teacherList.find(
@@ -26,9 +27,13 @@ export default function OurTeamSection() {
         <div className="relative w-full h-full group-hover:rotate-y-180 duration-1000 preserve-3d">
           {/* Front Side */}
           <div className="absolute w-full shadow-xl rounded-lg h-full p-10 backface-hidden flex flex-col justify-center text-center border border-secondary-color text-secondary-color gap-8">
-            <span className="flex justify-center">
-              {principal.imageUrl}
-            </span>
+            <Image
+              src={principal.imageUrl}
+              alt={principal.name}
+              width={100}
+              height={100}
+              className="mx-auto rounded-full"
+            />
             <h1 className="card-title">{principal.name}</h1>
             <p>{principal.designation}</p>
           </div>
@@ -56,9 +61,13 @@ export default function OurTeamSection() {
             <div className="relative w-full h-full group-hover:rotate-y-180 duration-1000 preserve-3d">
               {/* Front Side */}
               <div className="absolute w-full shadow-xl rounded-lg h-full p-10 backface-hidden border border-secondary-color text-secondary-color flex flex-col justify-center teachers-center gap-8">
-                <span className="flex justify-center ">
-                  {teacher.imageUrl}
-                </span>
+                <Image
+                  src={teacher.imageUrl}
+                  alt={teacher.name}
+                  width={100}
+                  height={100}
+                  className="mx-auto rounded-full"
+                />
                 <h1 className="card-title">{teacher.name}</h1>
                 <p>{teacher.designation}</p>
               </div>
