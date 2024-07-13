@@ -51,4 +51,7 @@ body {
   .section-category {
     @apply md:text-xl mb-5;
   }
+  .subsection-title {
+    @apply text-2xl text-secondary-color font-semibold mb-3 py-2
+  }
 }

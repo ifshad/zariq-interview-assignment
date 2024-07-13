@@ -435,3 +435,177 @@ export const whyChooseDetails = [
     imageUrl: "url_to_image_hafez_hafeza_opportunity",
   },
 ];
+
+export const teacherList = [
+  {
+    id: 1,
+    name: "Dr. Sarah Ahmed",
+    designation: "Principal",
+    department: "Administration",
+    imageUrl: "url_to_image_dr_sarah_ahmed",
+  },
+  {
+    id: 2,
+    name: "Mr. John Smith",
+    designation: "Head of Mathematics",
+    department: "Mathematics",
+    imageUrl: "url_to_image_mr_john_smith",
+  },
+  {
+    id: 3,
+    name: "Ms. Fatima Khan",
+    designation: "Senior English Teacher",
+    department: "English",
+    imageUrl: "url_to_image_ms_fatima_khan",
+  },
+  {
+    id: 4,
+    name: "Mr. Ali Rahman",
+    designation: "Science Teacher",
+    department: "Science",
+    imageUrl: "url_to_image_mr_ali_rahman",
+  },
+  {
+    id: 5,
+    name: "Mrs. Aisha Begum",
+    designation: "History Teacher",
+    department: "History",
+    imageUrl: "url_to_image_mrs_aisha_begum",
+  },
+  {
+    id: 6,
+    name: "Mr. Abdul Karim",
+    designation: "Physical Education Teacher",
+    department: "Physical Education",
+    imageUrl: "url_to_image_mr_abdul_karim",
+  },
+  {
+    id: 7,
+    name: "Ms. Maria Gonzales",
+    designation: "Art Teacher",
+    department: "Art",
+    imageUrl: "url_to_image_ms_maria_gonzales",
+  },
+  {
+    id: 8,
+    name: "Mr. Faisal Ahmad",
+    designation: "Head of Islamic Studies",
+    department: "Islamic Studies",
+    imageUrl: "url_to_image_mr_faisal_ahmad",
+  },
+  {
+    id: 9,
+    name: "Mrs. Layla Hussain",
+    designation: "Arabic Teacher",
+    department: "Arabic",
+    imageUrl: "url_to_image_mrs_layla_hussain",
+  },
+  {
+    id: 10,
+    name: "Mr. David Brown",
+    designation: "Computer Science Teacher",
+    department: "Computer Science",
+    imageUrl: "url_to_image_mr_david_brown",
+  },
+];
+
+export const elementarySection = [
+  {
+    id: 1,
+    title: "Curriculum Objectives",
+    description: [
+      "Inculcate strong Islamic values in the students.",
+      "Help the students in their intellectual, emotional, physical and social development.",
+      "Enable the students to become independent learners.",
+      "Help each student to recognize and understand his/her role in the world.",
+      "Prepare the students to become Da’ees (preachers) of Islam.",
+    ],
+    icon: "objective_icon_url",
+  },
+  {
+    id: 2,
+    title: "Arabic Language",
+    description:
+      "Arabic language starts right from Play Group, so that the children are able to practice it by the time they reach the higher grades. This is considered a key to unite the Muslims all over the world and to understand the Book of Allah in the language it was revealed in. The Elementary students use specially designed Arabic workbooks, developed in-house, which help the children build Arabic vocabulary quickly and practice Arabic letters.",
+    icon: "arabic_icon_url",
+  },
+  {
+    id: 3,
+    title: "English Language",
+    description:
+      "The students are encouraged to communicate in English language. The spoken abilities are enhanced through daily practice of phonics, whereas the reading skills are developed through an intense levelled Reading Program. We follow a Synthetic Phonic Program using interactive boards and tablets in the classrooms to enhance the listening and reading capability of students. The written expression is polished through a well-structured curriculum focused on appreciating creativity along with improving the hand writing.",
+    icon: "english_icon_url",
+  },
+  {
+    id: 4,
+    title: "Bangla Language",
+    description:
+      "Bangla language is highly valued at the school and is taught with the same zeal and emphasis as English and Arabic.",
+    icon: "bangla_icon_url",
+  },
+  {
+    id: 5,
+    title: "Mathematics",
+    description:
+      "Special Averroes Elementary Section material is used to make Mathematics a fun and an exciting subject. It helps to build concrete base of numeracy which would help these students in future to learn and apply complex mathematical concepts to real-world problems.",
+    icon: "mathematics_icon_url",
+  },
+  {
+    id: 6,
+    title: "Islamic Studies",
+    description:
+      "The curriculum focuses on spiritual uplifting alongside physical and mental grooming, emphasizing Tarbiyah and activity-based methodology.",
+    icon: "islamic_studies_icon_url",
+  },
+  {
+    id: 7,
+    title: "Cultural Studies",
+    description:
+      "Cultural Studies involve selected topics from Geography, History, Botany, Zoology, Science and Social Studies. Exploring 2D and 3D Art stimulates creativity and broadens the mind. Painting, cutting and sticking, drawing, making patterns with symmetry and recycling are all fun ways to learn art and craft.",
+    icon: "cultural_studies_icon_url",
+  },
+  {
+    id: 8,
+    title: "Sensorial Exercises",
+    description:
+      "Exercises for Practical Life help make our students more independent and confident, while the Sensorial exercises sharpen and enhance the mental development of students. These activities help train the children to take care of themselves and their environment. Regular Sports activities help keep our students physically fit and mentally healthy.",
+    icon: "sensorial_exercises_icon_url",
+  },
+  {
+    id: 9,
+    title: "Art",
+    description:
+      "Exploring Art stimulates creativity and broadens the mind. Painting, cutting and sticking, drawing, making patterns with symmetry and recycling are all fun ways to learn art and craft.",
+    icon: "art_icon_url",
+  },
+  {
+    id: 10,
+    title: "Assessment",
+    description:
+      "The students’ progress is closely monitored by assistant teachers, class teachers, subject teachers, level coordinators and the Section Head. Daily behaviour reports help in the identification of areas of concern, whether it is academic or otherwise and aid in planning to overcome them. Remedial programs are carried out for those students who require special attention in certain academic areas. If required, problems are discussed with parents so that they can also play a positive role in helping their child cope. Report cards prepared on the basis of regular ongoing assessment are sent to the parents at the end of each term.",
+    icon: "assessment_icon_url",
+  },
+  {
+    id: 11,
+    title: "Training",
+    description:
+      "We at Averroes pay special attention to the training and development of our staff. Every year we plan and conduct an Annual Training session for our teachers to share with them the new discoveries and latest practices in the field of education. We keep the parents involved through multiple workshops conducted to guide and enable them to teach and train their children hence resonating the positive impact of the School.",
+    icon: "training_icon_url",
+  },
+  {
+    id: 12,
+    title: "A Day at Averroes",
+    description: [
+      "Smile & Salam: Greeting every student, each morning with a smile and greeting of peace – ‘Assalamu alaikum WRT’.",
+      "Morning Assembly: Providing an energetic start to the day, students gather for the morning assembly where every child is given the opportunity to participate.",
+      "Circle Time: A recount of previous learning, moral themes and class rules.",
+      "Arabic Class: Taught in a manner that students can grasp it easily and converse fluently.",
+      "Sports: Guided by a trained teacher, students excel in various games and exercises.",
+      "Tiffin / Lunch Time: Washing hands, setting the table, and saying ‘Bismillah’ before enjoying snacks.",
+      "Material Time: Opportunity to unleash potential by working with Averroes Elementary Section material.",
+      "After School Facility: Purposeful time with interesting activities, snacks, or a short nap.",
+      "Departure Time: Exceptionally organized with a pick-up card system for security.",
+    ],
+    icon: "day_at_averroes_icon_url",
+  },
+];
