@@ -1,7 +1,10 @@
-import React from 'react'
+import BriefAdProcedure from "@/components/BriefAdProcedure/page";
+import React from "react";
 
 export default function AdmissionPage() {
   return (
-    <div>AdmissionPage</div>
-  )
+    <div>
+      <BriefAdProcedure />
+    </div>
+  );
 }

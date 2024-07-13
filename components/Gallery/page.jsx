@@ -5,7 +5,7 @@ import React, { useState } from "react";
 
 export default function Gallery() {
   const [isHovered, setIsHovered] = useState(null);
-  console.log(isHovered);
+  // console.log(isHovered);
   return (
     <div id="gallery" className="container md:p-12">
       <h1 className="section-title">Gallery</h1>

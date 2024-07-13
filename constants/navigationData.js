@@ -75,42 +75,42 @@ export const navListItems = [
       {
         id: 31,
         title: "A brief admission Procedure",
-        link: "/admission/procedure",
+        link: "/admission/#procedure",
       },
       {
         id: 32,
         title: "Scholarship",
-        link: "/admission/scholarship",
+        link: "/admission/#scholarship",
       },
       {
         id: 33,
         title: "School fees",
-        link: "/admission/school-fees",
+        link: "/admission/#school-fees",
       },
       {
         id: 34,
         title: "Withdrawal Policy",
-        link: "/admission/withdrawal-policy",
+        link: "/admission/#withdrawal-policy",
       },
       {
         id: 35,
         title: "FAQ on Admissions",
-        link: "/admission/faq",
+        link: "/admission/#faq",
       },
       {
         id: 36,
         title: "How to Apply",
-        link: "/admission/how-to-apply",
+        link: "/admission/#how-to-apply",
       },
       {
         id: 37,
         title: "Apply Online",
-        link: "/admission/apply-online",
+        link: "/admission/#apply-online",
       },
       {
         id: 38,
         title: "Online Payment",
-        link: "/admission/online-payment",
+        link: "/admission/#online-payment",
       },
     ],
   },
@@ -708,5 +708,66 @@ export const gallery = [
     imageUrl:
       "https://i.ibb.co/z6rwWC3/ifshad-51-Theme-Combine-elements-that-represent-artificial-inte-6974a0f7-87cd-450d-87dd-446c870189e6.png",
     eventName: "Event 5",
+  },
+];
+
+export const classInfo = [
+  { class: "Playgroup", ageRange: "3+ to below 4" },
+  { class: "Nursery", ageRange: "4+ to below 5" },
+  { class: "Pre KG", ageRange: "5+ to below 6" },
+  { class: "KG", ageRange: "6+ to below 7" },
+  { class: "Grade 1", ageRange: "7+ to below 8" },
+  { class: "Grade 2", ageRange: "8+ to below 9" },
+  { class: "Grade 3", ageRange: "9+ to below 10" },
+  { class: "Grade 4", ageRange: "10+ to below 11" },
+  { class: "Grade 5", ageRange: "11+ to below 12" },
+  { class: "Grade 6", ageRange: "12+ to below 13" },
+  { class: "Grade 7", ageRange: "13+ to below 14" },
+  { class: "Grade 8", ageRange: "14+ to below 15" },
+  { class: "Grade 9", ageRange: "15+ to below 16" },
+  { class: "Grade 10", ageRange: "16+ to below 17" },
+  { class: "Grade 11", ageRange: "17+ to below 18" },
+  { class: "Grade 12", ageRange: "18+ to below 19" },
+];
+
+export const admissionSteps = [
+  { id: 1, description: "Issuance of Prospectus" },
+  {
+    id: 2,
+    description:
+      "Parent to meet admission office to get details of admission procedure, fee schedule etc. After approval of MD & CEO/Principal/Vice Principal, parents can obtain the prescribed admission form from the Principal’s Office at a particular cost.",
+  },
+  {
+    id: 3,
+    description: "Oral Interaction (with parents and student): Pre-Primary",
+  },
+  { id: 4, description: "Written test for KG-I to Class VIII." },
+  {
+    id: 5,
+    description: "Admission orders – An SMS of admission given to the parents",
+  },
+  {
+    id: 6,
+    description:
+      "Fees to be deposited in the Accounts Department or in mentioned Bank",
+  },
+  {
+    id: 7,
+    description:
+      "Parent has to fill up the required details to complete the admission form and submit the form. Recent passport size photograph of student & parent, a copy of child’s birth certificate, recent report cards photocopy must be submitted along with admission form to the Admission Office.",
+  },
+  {
+    id: 8,
+    description:
+      "Admission Office will accept admission applications within a deadline (or on a seat-available basis).",
+  },
+  {
+    id: 9,
+    description:
+      "Uniform, books, stationery etc. to be arranged, by the parents according to the given instructions.",
+  },
+  {
+    id: 10,
+    description: "Join AIS orientation & be a proud member of AIS Family.",
   },
 ];
