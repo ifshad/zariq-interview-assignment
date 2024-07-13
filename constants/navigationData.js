@@ -771,3 +771,61 @@ export const admissionSteps = [
     description: "Join AIS orientation & be a proud member of AIS Family.",
   },
 ];
+
+export const howToApply = [
+  {
+    id: 1,
+    title: "Fillup Admission Form",
+    description: [
+      "Admission Form for every applicant requires to be collected to begin the Admission process.",
+      "Admission Form can be collected on payment of an application fee of BDT 500 (BDT Five Hundred Only) from Admissions Office directly or you may apply online.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Submit The Form",
+    description: [
+      "Applicant should fill in the admission form completely, leaving no fields blank on the form.",
+      "The completed Admission Form is to be submitted to the Admissions Office or directly Online.",
+      "Please attach all required documents with completed Admission Form.",
+    ],
+  },
+  {
+    id: 3,
+    title: "Admission Assessment",
+    description: [
+      "An Admission Assessment will be conducted for all applicants on receiving complete Admission applications.",
+      "Assessments will be Oral for Playgroup and Nursery.",
+      "Assessments may be Oral and/or Written for all Admission applicants.",
+      "Assessments may be conducted in Admissions Office in person or via Online Assessment System, which may be live, or through Video Conferencing.",
+    ],
+  },
+  {
+    id: 4,
+    title: "Assessment Result & Gather Necessary Documents",
+    description: [
+      "If Admission Assessment results are positive, based on Oral and Written processes, applicant will be informed and requested to complete Admission Process.",
+      "Remaining documentation submissions must be completed at this point.",
+    ],
+  },
+  {
+    id: 5,
+    title: "Payment Process",
+    description: [
+      "Admission Fees can be paid via multiple modes of payment such as:",
+      "- Online Payment Gateway",
+      "- Online Banking",
+      "- bKash",
+      "- Cash transactions at the Admissions Office",
+    ],
+  },
+  {
+    id: 6,
+    title: "Admission",
+    description: [
+      "Admissions will be confirmed based on seat capacity and availability.",
+      "School decisions regarding Admissions will be deemed final.",
+      "Admission process should be completed within 10 working days of receiving Admission Confirmation.",
+    ],
+  },
+];
