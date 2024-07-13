@@ -609,3 +609,48 @@ export const elementarySection = [
     icon: "day_at_averroes_icon_url",
   },
 ];
+
+export const upcomingEvents = [
+  {
+    id: 1,
+    title: "INTERNATIONAL MOTHER LANGUAGE DAY – SCHOOL CLOSURE",
+    date: "21 FEB",
+    time: "10:30 am - 12:00 pm",
+    imageUrl: "international_mother_language_day_image_url",
+  },
+  {
+    id: 2,
+    title: "EKUSHEY CHITRANKON ONUSHTHAN – MS",
+    date: "20 FEB",
+    time: "9:00 am - 12:30 pm",
+    imageUrl: "ekushey_chitrankon_onusthan_ms_image_url",
+  },
+  {
+    id: 3,
+    title: "EKUSHEY CHITRANKON ONUSHTHAN – JS",
+    date: "19 FEB",
+    time: "9:00 am - 12:00 pm",
+    imageUrl: "ekushey_chitrankon_onusthan_js_image_url",
+  },
+  {
+    id: 4,
+    title: "PARENT PRINCIPAL MEETING – JS",
+    date: "10 FEB",
+    time: "10:00 am - 12:00 pm",
+    imageUrl: "parent_principal_meeting_js_image_url",
+  },
+  {
+    id: 5,
+    title: "ANNUAL SPELLING BEE",
+    date: "07 FEB",
+    time: "8:30 am - 12:00 pm",
+    imageUrl: "annual_spelling_bee_image_url",
+  },
+  {
+    id: 6,
+    title: "GIS ANNUAL SPORTS 2023-2024",
+    date: "25 JAN",
+    time: "8:00 am - 12:00pm",
+    imageUrl: "annual_spelling_bee_image_url",
+  },
+];

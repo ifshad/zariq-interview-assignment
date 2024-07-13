@@ -1,6 +1,12 @@
 "use client";
 import React from "react";
 import Carousel from "../Carousel/page";
+import BoldBorder from "../BoldBorder/page";
+import imageOne from "../../public/Images/school_image_01.png";
+import imageTwo from "../../public/Images/school_image_02.png";
+import Image from "next/image";
+
+const imageItems = [imageOne, imageTwo, imageOne, imageTwo, imageOne, imageTwo];
 
 export default function CampusTour() {
   const handleSubmit = (e) => {
@@ -36,7 +42,7 @@ export default function CampusTour() {
         </h1>
       </div>
       {/* Contents */}
-      <div className="container grid grid-cols-1 md:grid-cols-2 gap-7">
+      <div className="container grid grid-cols-1 md:grid-cols-2 gap-5">
         {/* Carousel */}
         <div>
           <Carousel />
@@ -125,6 +131,21 @@ export default function CampusTour() {
             <input type="submit" value="Submit" className="btn w-full my-2" />
           </form>
         </div>
+      </div>
+      {/* Galary */}
+      <div className="w-4/5 mx-auto text-center">
+        <h1 className="card-title">GLENRICH CAMPUS OVERVIEW</h1>
+        <div className="flex justify-center">
+          <BoldBorder />
+        </div>
+      </div>
+      <div className="container grid grid-cols-1 md:grid-cols-4 gap-5 mx-auto">
+        {imageItems.map((src, index) => (
+          <div key={index}>
+            <Image src={src} alt={`index${index + 1}`} width={200} />
+            <p className="text-center">Satarkul Branch</p>
+          </div>
+        ))}
       </div>
     </div>
   );
