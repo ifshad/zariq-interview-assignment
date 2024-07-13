@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Carousel from "../Carousel/page";
 import BoldBorder from "../BoldBorder/page";
 import imageOne from "../../public/Images/school_image_01.png";
@@ -9,6 +9,8 @@ import Image from "next/image";
 const imageItems = [imageOne, imageTwo, imageOne, imageTwo, imageOne, imageTwo];
 
 export default function CampusTour() {
+  const [agreementChecked, setAgreementChecked] = useState(false);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = new FormData(e.target);
@@ -32,6 +34,7 @@ export default function CampusTour() {
 
     console.log(admissionInfo);
     e.target.reset();
+    setAgreementChecked(false);
   };
   return (
     <div id="campus" className="md:py-12">
@@ -125,10 +128,23 @@ export default function CampusTour() {
               />
             </div>
             <div className="my-4 flex gap-4 items-center p-4 border rounded-md">
-              <input type="checkbox" name="isHuman" id="isHuman" />
+              <input
+                type="checkbox"
+                name="isHuman"
+                id="isHuman"
+                checked={agreementChecked}
+                onChange={(e) => setAgreementChecked(e.target.checked)}
+              />
               <p className="mb-2">I am human</p>
             </div>
-            <input type="submit" value="Submit" className="btn w-full my-2" />
+            <input
+              type="submit"
+              value="Submit"
+              className={`btn w-full my-2 ${
+                !agreementChecked ? "opacity-50 cursor-not-allowed" : ""
+              }`}
+              disabled={!agreementChecked}
+            />
           </form>
         </div>
       </div>

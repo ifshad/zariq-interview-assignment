@@ -4,11 +4,12 @@ import {
   newsMedia,
   schoolGrades,
 } from "@/constants/navigationData";
-import React from "react";
+import React, { useState } from "react";
 import BoldBorder from "../BoldBorder/page";
 import Image from "next/image";
 
 export default function NewsUpdateQuery() {
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = new FormData(e.target);
